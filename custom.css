@@ -592,6 +592,16 @@ a {
   color: #ffffff;
 }
 
+a:hover {
+   color: rgb(255, 187, 0);
+   text-decoration: underline;
+}
+
+.nav-link:hover {
+  color: rgb(255, 187, 0) !important;
+   text-decoration: underline;
+}
+
 .icons-footer {
   position: absolute;
   top: 50%;
@@ -1009,6 +1019,13 @@ a {
     #watch {
       font-size: 1rem;
       color: #000000;
+    }
+
+    .icons-div {
+      display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    column-gap: 50px;
     }
 
     .container {
